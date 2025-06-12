@@ -1,0 +1,51 @@
+
+.form-input-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+
+
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+label {
+    font-size: 1.1rem;
+    color: #0041A3;
+    font-weight: middle;
+    margin-bottom: 0.25rem;
+}
+
+input[type="text"]{
+    padding: 0.5rem;
+    border: 1px solid #A9ADB0;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #70777B;
+}
+
+textarea {
+    padding: 0.5rem;
+    border: 1px solid #A9ADB0;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #70777B;
+    resize: vertical; /* Allows vertical resizing */
+}
+
+select {
+    padding: 0.5rem;
+    border: 1px solid #A9ADB0;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #70777B;
+}
+

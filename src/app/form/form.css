@@ -1,0 +1,58 @@
+
+.form-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #0041A3;
+}
+
+.form-subtitle {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #9EACB3;
+}
+
+.form-description {
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  color: #70777B;
+}
+
+.special{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0041A3;
+    margin-bottom: 0.5rem;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+checkbox {
+    margin-right: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.checkbox-label {
+    font-size: 0.875rem;
+    color: #70777B;
+}
+
+.checkbox-container {
+    
+    margin-bottom: 1rem;
+}
+
+.special{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0041A3;
+    margin-bottom: 0.5rem;
+}
+
+
+
+

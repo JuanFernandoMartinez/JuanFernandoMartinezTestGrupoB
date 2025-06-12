@@ -1,0 +1,19 @@
+
+
+<div class="form-input-container">
+    <div class="form-input">
+        <label for={{placeholder}}>{{label}}</label>
+        @if (type === 'text') {
+        <input name = {{placeholder}} type="text" placeholder={{placeholder}}/>
+        }@else if (type === 'paragraph') {
+        <textarea name = {{placeholder}} placeholder={{placeholder}}></textarea>
+        }@else if (type === 'select') {
+            
+        <select name = {{placeholder}}>
+            @for (option of options; track option) {
+                <option value={{option}}>{{option}}</option>
+            }
+        </select>
+        }
+    </div>
+</div>

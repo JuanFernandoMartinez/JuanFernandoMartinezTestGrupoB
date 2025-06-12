@@ -1,0 +1,32 @@
+<form>
+    <p class="form-title">Crear una medicion</p>
+    <p class="form-subtitle">
+        Permita de nuevas mediciones de participación
+    </p>
+
+    <p class="form-description">
+        Es el proceso de evaluar cuán involucradas están las personas en una actividad, usando indicadores como
+        asistencia, interacciones o aportes. Se recogen datos, se analizan y se obtiene un resultado que ayuda a mejorar
+        el compromiso y la estrategia.
+    </p>
+
+    <app-form-input type="text" placeholder="Inserte el nombre" label="Nombre de la medición" />
+    <app-form-input type="paragraph" placeholder="Inserte comentarios u observaciones"
+        label="Descripción de la medición" />
+    <app-form-input type="select" placeholder="Tipo de medición" label="Tipo de medición"
+        [options]="['Activo', 'Inactivo']" />
+
+
+    <p class="special">Configuración especial</p>
+
+
+    <div class="checkbox-container">
+        <input type="checkbox" id="specialConfig" name="specialConfig">
+        <label for="specialConfig">Implementación obligatoria</label>
+    </div>
+
+
+    <app-button text="Crear medición" type="primary" />
+    <app-button text="Cancelar creación" type="secondary" />
+
+</form>
